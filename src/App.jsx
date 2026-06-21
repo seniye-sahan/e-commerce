@@ -1,13 +1,15 @@
-import { useSelector } from "react-redux";
+import Header from "./layout/Header";
+import Footer from "./layout/Footer";
+import PageContent from "./layout/PageContent";
+
 function App() {
-  const state = useSelector(state => state);
-
-  console.log("REDUX STATE:", state);
-
   return (
-    <div>
-      <h1>Redux Test</h1>
-    </div>
+    <>
+      <Header />
+      <PageContent />
+      <Footer />
+    </>
   );
 }
+
 export default App;

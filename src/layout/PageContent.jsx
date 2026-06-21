@@ -1,0 +1,14 @@
+import { Route, Switch } from "react-router-dom";
+import HomePage from "../pages/HomePage";
+
+function PageContent() {
+  return (
+    <main>
+      <Switch>
+        <Route exact path="/" component={HomePage} />
+      </Switch>
+    </main>
+  );
+}
+
+export default PageContent;
