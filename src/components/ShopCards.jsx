@@ -5,14 +5,14 @@ import shopKids from "../assets/shop-kids.jpg";
 
 function ShopCards() {
     return (
-        <section className="py-8 bg-[#FAFAFA]">
+        <section className="py-12 bg-[#FAFAFA]">
             <div className="mx-auto max-w-5xl px-4">
-                <div className="mb-6 text-center">
-                    <h2 className="text-center font-[Montserrat] text-2xl font-bold leading-8 tracking-[0.1px] text-[#252B42]">
+                <div className="mb-8 text-center">
+                    <h2 className="text-center font-[Montserrat] mt-8 text-2xl font-bold leading-8 tracking-[0.1px] text-[#252B42]">
                         EDITOR'S PICK
                     </h2>
 
-                    <p className="mx-auto mt-2 w-[196px] text-center text-sm font-normal leading-5 tracking-[0.2px] text-[#737373]">
+                    <p className="mx-auto mt-2 w-[196px] text-center text-sm font-normal leading-5 tracking-[0.2px] text-[#737373] md:w-[347px]">
                         Problems trying to resolve the conflict between
                     </p>
                 </div>
